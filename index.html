@@ -27,33 +27,42 @@
 
     <main class="main">
         <section class="text__area">
-            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <textarea class="text-area" id="textarea" cols="10" rows="8" placeholder="Ingrese el texto aqui"></textarea>
             <h6 class="information">
                 <i class="ri-information-line information__icon">
                     <span class="information__text">
-                        Solo letras minúsculas y sin acentos
+                        Solo letras minúsculas y sin acentos.
                     </span>
                 </i>
             </h6>
             <div class="button__container grid">
-                <button class="button btn__encrypt">
+                <button class="button btn__encrypt" id="encriptar">
                     Encriptar
                     <i class="ri-lock-line"></i>
                 </button>
-                <button class="button btn__decrypt">
+                <button class="button btn__decrypt" id="desencriptar">
                     Desencriptar
                     <i class="ri-lock-unlock-line"></i>
                 </button>
             </div>
         </section>
         <section class="frame5">
-            <h2 class="mesaje1">Ningun mensaje fue encontrado</h2>
+            <textarea style="display:none;" cols="30" rows="3" class="mesaje" id="resultado"></textarea>
+            <div id="ocultar">
+            <img src="./img/bg-decryp.png" alt="" class="bg__frame5">
+                <h2 class="mesaje1">Ningun mensaje fue encontrado</h2>
             <p class="subtitle">Ingresa el texto que desees encriptar o desencriptar.</p>
-            <!-- <textarea cols="30" rows="3" class="mesaje"></textarea>
+            </div>
             <div class="buttons">
-                <button class="button copy">Copiar</button> -->
+                <button class="button copy" id="copiar" hidden>
+                    Copiar
+                    <i class="ri-file-copy-line"></i>
+                </button>
             </div>
         </section>
     </main>
+
+    <!-- MAIN JS -->
+    <script src="./js/main.js"></script>
 </body>
 </html>

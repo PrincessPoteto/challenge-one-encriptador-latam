@@ -31,7 +31,7 @@ a{
 }
 
 .nav{
-    max-width: 375px;
+    width: 375px;
     height: auto;
     display: flex;
     justify-content: space-between;
@@ -46,7 +46,7 @@ a{
 }
 
 .datos{
-    width: 100px;
+    width: 150px;
     padding-left: .5rem;
     padding-top: .5rem;
 }
@@ -57,11 +57,11 @@ a{
 }
 
 .text-area{
-    max-width: 300px;
+    width: 350px;
     border: none;
     font-size: 1.5rem;
     color: var(--Dark-blue-300);
-    margin-top: 3rem;
+    margin-top: 1rem;
     text-transform: lowercase;
     background-color: var(--Light-blue-200);
 }
@@ -83,7 +83,7 @@ a{
 }
 
 .button__container{
-    max-width: 290px;
+    width: 290px;
     /* grid-template-columns: repeat(1, 1fr); */
 }
 
@@ -97,7 +97,6 @@ a{
     color: #FFF;
     padding: 1rem;
     border-radius: 1rem;
-    font-weight: var(--normal-font-size);
     border-color: var(--Dark-blue-300);
     border-width: .05rem;
     font-size: .95rem;
@@ -115,7 +114,7 @@ a{
 }
 
 .frame5{
-    max-width: 260px;
+    width: 360px;
     margin: 1rem;
     padding: 1rem;
     background: #FFF;
@@ -138,7 +137,6 @@ a{
 
 .copy{
     width: 250px;
-    max-width: 280px;
     margin-top: 1rem;
 }
 
@@ -147,4 +145,80 @@ a{
     border: none;
     font-size: 1.5rem;
     color: var(--Dark-blue-300);
+}
+
+.mesaje:focus{
+    outline: none;
+}
+
+.bg__frame5{
+    display: none;
+}
+
+/* MEDIA QUERIES */
+/* For my device */
+@media screen and (min-width: 400px) {
+.nav{
+    width: 415px;
+}
+
+.nav__logo-alura{
+    width: 70px;
+}
+
+.datos{
+    width: 150px;
+    font-size: 25px;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+
+.text-area{
+    width: 360px;
+    font-size: 31px;
+}
+
+.information__icon{
+    font-size: 16px;
+}
+
+.button__container{
+    width: 360px;
+    /* grid-template-columns: repeat(1, 1fr); */
+}
+
+.button{
+    font-size: 21px;
+}
+
+.button:hover{
+    background-color: var(--Dark-blue-200);
+    color: #FFF;
+}
+
+.btn__decrypt,
+.copy{
+    background-color: #FFF;
+    color: #072B61;
+}
+
+.frame5{
+    max-width: 335px;
+}
+
+.mesnaje1{
+    font-size: 3rem;
+}
+
+.copy{
+    width: 335px;
+    margin-top: 1rem;
+}
+
+.mesaje{
+    max-width: 250px;
+    border: none;
+    font-size: 30px;
+}
+
 }
