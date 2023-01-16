@@ -1,0 +1,150 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+    --header-height: 3.5rem;
+
+/*========== Colors ==========*/
+/*Alura colors*/
+--Dark-blue-300: #0A3871;
+--Light-blue-200: #EFF1FA;
+--Dark-blue-400: #072B61;
+--Dark-blue-200: #356EA9;
+--Gray-400: #495057;
+--Gray-500: #343A40;
+
+/*========== Font and typography ==========*/
+/*.5rem = 8px | 1rem = 16px ...*/
+--body-font: 'Inter', sans-serif;
+--second-font: 'Inter', sans-serif;
+}
+
+body{
+    background-color: var(--Light-blue-200);
+}
+a{
+    text-decoration: none;
+    color: var(--Dark-blue-300);
+    font-family: var(--body-font);
+    font-weight: 1rem;
+}
+
+.nav{
+    max-width: 375px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__logo-alura{
+    width: 70px;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    border-radius: 3.5rem;
+}
+
+.datos{
+    width: 100px;
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
+
+.text__area{
+    margin: 0;
+    padding: 1rem;
+}
+
+.text-area{
+    max-width: 300px;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--Dark-blue-300);
+    margin-top: 3rem;
+    text-transform: lowercase;
+    background-color: var(--Light-blue-200);
+}
+
+::placeholder{
+    color: var(--Dark-blue-200);
+}
+
+.text-area:focus{
+    outline: none;
+}
+
+.information__icon{
+    font-size: 10px;
+    color: #343A40;
+    font: var(--body-font);
+    align-items: center;
+    padding-left: 0;
+}
+
+.button__container{
+    max-width: 290px;
+    /* grid-template-columns: repeat(1, 1fr); */
+}
+
+.grid{
+    display: grid;
+    gap: 1rem;
+}
+
+.button{
+    background-color: var(--Dark-blue-300);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: var(--normal-font-size);
+    border-color: var(--Dark-blue-300);
+    border-width: .05rem;
+    font-size: .95rem;
+}
+
+.button:hover{
+    background-color: var(--Dark-blue-200);
+    color: #FFF;
+}
+
+.btn__decrypt,
+.copy{
+    background-color: #FFF;
+    color: #072B61;
+}
+
+.frame5{
+    max-width: 260px;
+    margin: 1rem;
+    padding: 1rem;
+    background: #FFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    font-family: var(--body-font);
+    text-align: center;
+}
+
+.mesnaje1{
+    font-size: 3rem;
+    color: var(--Gray-500);
+    background-color: #FFF;
+}
+
+.subtitle{
+    color: var(--Gray-400);
+    font-size: .95rem;
+}
+
+.copy{
+    width: 250px;
+    max-width: 280px;
+    margin-top: 1rem;
+}
+
+.mesaje{
+    max-width: 250px;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--Dark-blue-300);
+}
