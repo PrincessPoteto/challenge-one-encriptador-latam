@@ -1,12 +1,12 @@
-Challenge ONE | Encriptador de texto | Josue Alexis Salgado Romero | Grupo 4
-<p align="center" >
-     <img width="500" heigth="300" src="https://user-images.githubusercontent.com/91544872/157673573-5e781ce9-601c-4ea3-9db1-b60bebf717aa.png">
-</p>
+# Challenge ONE | Encriptador de texto
+### Josue Alexis Salgado Romero | Grupo 4
+---
+![preview screenshot](./img/desktop%20_challenge.jpeg)
 
-### ¡Bienvenido a mi proyecto del Encriptador de texto!
+## ¡Bienvenido a mi proyecto del Encriptador de texto!
 
-#### Here you will find my solution to this first challenge
-
+#### Aquí encontrarás mi solución a este primer desafío.
+---
 
 <div align="center">
   <h3>
@@ -16,24 +16,54 @@ Challenge ONE | Encriptador de texto | Josue Alexis Salgado Romero | Grupo 4
   </h3>
 </div>
 
+---
+
+## Resume del projecto
+
+Este es el primer Challenge del programa ONE - Oracle Next Education. Esta aplicación tiene la función de codificar y decodificar mensajes de texto de forma sencilla. Con el objetivo de intercambiar información con otras personas de una manera segura y divertida.
+
+## Llaves de encriptacion
 
 
-## Table of contents
+- La letra **"e"** es convertida para **"enter"**
+- La letra **"i"** es convertida para **"imes"**
+- La letra **"a"** es convertida para **"ai"**
+- La letra **"o"** es convertida para **"ober"**
+- La letra **"u"** es convertida para **"ufat"**
 
-- [Overview](#overview)
-  - [Built with](#built-with)
-- [Contact](#contact)
+**Aplica también a la inversa**
+
+### Requisitos:
+
+- Debe funcionar solo con letras minúsculas.
+- No deben ser utilizados letras con acentos ni caracteres especiales.
+- Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+
+` Por ejemplo: "gato" => "gaitober" "gaitober" => "gato"`
+
+
+- La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre as dos opciones.
+- El resultado debe ser mostrado en la pantalla.
+
+### Extras:
+
+- Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+---
 
 <!-- Overview section -->
 
-## Overview
-![preview screenshot](./img/overview.jpg)
+## Mensaje secreto
+![Mensaje decifrado screenshot](./img/desktop_challenge_secret_msj.jpeg)
 
-- Alura challenges help you improve your coding skills by building realistic projects.
+- Los desafíos de Alura lo ayudan a mejorar sus habilidades de codificación mediante la creación de proyectos realistas.
 
-- You can see a live site at [challenge one encriptador](https://princesspoteto.github.io/challenge-one-encriptador-latam/)
+- Puedes ver un sitio en vivo en [challenge one encriptador](https://princesspoteto.github.io/challenge-one-encriptador-latam/)
 
-### Built with
+### Vista de Version movile
+![preview screenshot](./img/movile_challenge.jpeg)
+
+### construido con
 
 - HTML
 - CSS
@@ -42,7 +72,7 @@ Challenge ONE | Encriptador de texto | Josue Alexis Salgado Romero | Grupo 4
 
 <!-- Contact section -->
 
-##  Contact
+##  Contacto
 
 - Github Repositories [@PrincessPoteto](https://github.com/PrincessPoteto)
 
